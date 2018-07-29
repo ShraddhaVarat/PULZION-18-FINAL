@@ -1,0 +1,38 @@
+.img1{
+	height: 280px;
+	width: 280px;
+	border-radius: 50%;
+}
+.container{
+	background-color:transparent;
+}
+body{
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  text-align: center;
+}
+@font-face{
+  font-family:JosefinSans;
+  src:url('../fonts/JosefinSans-Regular.ttf');
+  }
+h1{
+	color: #0ff;
+	font-family: JosefinSans;
+}
+h3{
+	color: white;
+}
+.img2{
+	height: 240px;
+	width: 240px;
+	border-radius: 50%;
+}
+body{
+	margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
